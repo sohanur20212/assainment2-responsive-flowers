@@ -6,7 +6,7 @@
 
 /* common style  */
 .width {
-  max-width: 1180px;
+  width: 1180px;
   margin: 0 auto;
   display: flex;
   margin-bottom: 100px;
@@ -83,7 +83,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 30px;
-margin-bottom: 200px;
+  margin-bottom: 200px;
 }
 .left-plant {
   display: flex;
@@ -133,7 +133,6 @@ margin-bottom: 200px;
   justify-content: center;
   gap: 50px;
   position: relative;
-  
 }
 .right-plant-lover-slide {
   max-width: 600px;
@@ -153,9 +152,79 @@ margin-bottom: 200px;
   margin: 20px 0;
 }
 .trusted-bacth {
-    position: absolute;
-    width: 286px;
-    height: 286px;
-    top: -136px;
-    left: 363px;
+  position: absolute;
+  width: 286px;
+  height: 286px;
+  top: -136px;
+  left: 363px;
 }
+
+/* Join Section  */
+.join-section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-join-slide h2 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.left-join-slide p {
+  width: 60%;
+  margin: 10px auto 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* right join slide */
+.both-slide-container{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+}
+
+.right-join-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+
+.container {
+  position: relative;
+  
+}
+.container img{
+    display: block;
+    border-radius: 30px;
+}
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ background-color: rgba(0, 0, 0, .5);
+ border-radius: 30px;
+ 
+}
+.centered-text h4{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.centered-text a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+color: white;
+font-size: 30px;
+}
+
