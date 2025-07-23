@@ -1,128 +1,161 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* common style  */
-.width{
-    width: 1180px;
-    margin: 0 auto;
-    display: flex;
-    margin-bottom: 100px;
-    
+.width {
+  width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 100px;
 }
 
-.secondary-color{
-    color: rgba(137, 135, 161, 1);
+.secondary-color {
+  color: rgba(137, 135, 161, 1);
 }
-.light-color{
-    color: rgba(233, 90, 8, 1);
+.light-color {
+  color: rgba(233, 90, 8, 1);
 }
-.btn{
-    border: none;
-    width: 100%;
-    color: white;
-    font-size: 20px;
-    padding: 10px 0;
-    background-color: rgba(233, 90, 8, 1);
+.btn {
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  padding: 10px 0;
+  background-color: rgba(233, 90, 8, 1);
 }
 
 /* custom style  */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
 }
-.menubar{
-    display: flex;
-    align-items: center;
+.menubar {
+  display: flex;
+  align-items: center;
 }
 .menubar li {
-    list-style: none;
-    margin-right: 0;
-    
+  list-style: none;
+  margin-right: 0;
 }
-.menubar li a{
-    text-decoration: none;
-    margin-right: 20px;
-    font-size: 20px;
-    color: black;
+.menubar li a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+  color: black;
 }
 .menubar li:nth-child(1) a {
-    font-weight: bold;
+  font-weight: bold;
 }
 .menubar li:nth-child(2) a,
 .menubar li:nth-child(3) a {
-    color: rgba(137, 135, 161, 1);
+  color: rgba(137, 135, 161, 1);
 }
 .menubar li:nth-child(4) a {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 /* banner style  */
-.banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    padding-top: 50px;
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding-top: 50px;
 }
 
-.left-slide h3{
-    font-size: 65px;
+.left-slide h3 {
+  font-size: 65px;
 }
-.left-slide p{
-    font-size: 20px;
-    max-width: 60%;
+.left-slide p {
+  font-size: 20px;
+  max-width: 60%;
 }
 
 /* plant section  */
-.plant{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+.plant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+margin-bottom: 200px;
 }
-.left-plant{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.left-plant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.title{
-    font-size: 60px;
-    text-align: center;
+.title {
+  font-size: 60px;
+  text-align: center;
 }
 
-.left-plant p{
-    text-align: center;
-    max-width: 70%;
-    font-size: 20px;
+.left-plant p {
+  text-align: center;
+  max-width: 70%;
+  font-size: 20px;
 }
 
 /* right slide  */
 
-.right-plant{
-    max-width: 270px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+.right-plant {
+  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
-.right-plant-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 70px 30px;
+.right-plant-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 70px 30px;
 }
 
-.plant-name{
-    font-size: 20px;
-    font-weight: bold;
+.plant-name {
+  font-size: 20px;
+  font-weight: bold;
 }
-.plant-price{
-    font-size: 20px;
-    font-weight: bold;
+.plant-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Plants Lover Section */
+.plalnt-lover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  position: relative;
+  
+}
+.right-plant-lover-slide {
+  max-width: 600px;
+}
+.plant-lover-title {
+  font-size: 50px;
+  margin: 20px 0;
+  margin-left: -20px;
+}
+
+.plant-bullet-list {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.plant-bullet-list li {
+  margin: 20px 0;
+}
+.trusted-bacth {
+    position: absolute;
+    width: 286px;
+    height: 286px;
+    top: -136px;
+    left: 363px;
 }
