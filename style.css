@@ -6,7 +6,7 @@
 
 /* common style  */
 .width {
-  width: 1180px;
+  max-width: 1180px;
   margin: 0 auto;
   display: flex;
   margin-bottom: 100px;
