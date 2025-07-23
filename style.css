@@ -9,7 +9,7 @@
     width: 1180px;
     margin: 0 auto;
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     
 }
 
@@ -19,7 +19,14 @@
 .light-color{
     color: rgba(233, 90, 8, 1);
 }
-
+.btn{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+    background-color: rgba(233, 90, 8, 1);
+}
 
 /* custom style  */
 nav{
@@ -69,4 +76,53 @@ nav{
 .left-slide p{
     font-size: 20px;
     max-width: 60%;
+}
+
+/* plant section  */
+.plant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.left-plant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 60px;
+    text-align: center;
+}
+
+.left-plant p{
+    text-align: center;
+    max-width: 70%;
+    font-size: 20px;
+}
+
+/* right slide  */
+
+.right-plant{
+    max-width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.right-plant-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px 30px;
+}
+
+.plant-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.plant-price{
+    font-size: 20px;
+    font-weight: bold;
 }
