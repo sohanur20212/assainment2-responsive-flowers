@@ -6,7 +6,7 @@
 
 /* common style  */
 .width {
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
   display: flex;
   margin-bottom: 100px;
@@ -41,6 +41,8 @@ nav {
 .menubar li {
   list-style: none;
   margin-right: 0;
+  
+
 }
 .menubar li a {
   text-decoration: none;
@@ -243,6 +245,7 @@ font-size: 30px;
 .join{
   text-align: center;
   position: absolute;
+  
 
   
 }
@@ -254,7 +257,7 @@ font-size: 30px;
 .join input{
   padding: 10px;
   font-size: 20px;
-  width: 600px;
+  max-width: 600px;
   margin-right: none;
   border: none;
   position: relative;
@@ -287,4 +290,94 @@ font-size: 30px;
   display: flex;
   gap: 20px;
   align-items: center;
+}
+
+
+
+
+
+
+  /* responsive section  */
+
+
+
+
+@media (max-width: 576px) {
+  .menubar li {
+    display: none;
+  }
+
+  .menubar li:last-child {
+    display: inline-block;
+    
+  }
+  .banner{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .left-slide{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+   
+  }
+  .left-slide h3{
+    font-size: 2.5rem;
+    width: fit-content;
+  }
+  .plant{
+    display: flex;
+    margin: 0 auto;
+    
+  }
+.left-plant{
+  width: fit-content;
+}
+  .right-plant-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 70px 30px;
+  margin: 0 10px;
+}
+.trusted-bacth {
+  display: none;
+}
+.plalnt-lover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  
+}
+.right-plant-lover-slide{
+  width: 60%;
+}
+
+.both-slide-container{
+  display: flex;
+  flex-direction: column;
+}
+.right-img2{
+  max-width: 500px;
+}
+.right-img2, .container img{
+  max-width: 500px;
+}
+
+.join-container img{
+  width: 100%;
+  height: 300px;
+}
+.footer-container{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  margin-top:0 auto;
+}
+
 }
