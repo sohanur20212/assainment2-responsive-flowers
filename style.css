@@ -6,7 +6,7 @@
 
 /* common style  */
 .width {
-  width: 1180px;
+  width: 1100px;
   margin: 0 auto;
   display: flex;
   margin-bottom: 100px;
@@ -265,4 +265,26 @@ font-size: 30px;
   margin: 0;
   border: none;
   position: absolute;
+}
+
+/* footer section  */
+.footer-container{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.first-footer-slide p{
+  font-size: 20px;
+}
+
+.second-footer-slide ul li, .third-footer-slide ul li{
+ list-style: none;
+ font-size: 20px;
+ margin: 10px 0 ;
+}
+.fourth-footer-slide{
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
